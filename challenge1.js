@@ -1,6 +1,5 @@
 function Sum(arr){
 
-    arr = [23,33,3,1,44];
     if (arr.length >=3 )
     {
     let sort = arr.sort((a,b) => b-a);
