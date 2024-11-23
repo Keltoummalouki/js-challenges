@@ -8,11 +8,9 @@ function reverseArr(arr){
             i = i+1;
             j = j-1;
         }
-        console.log(arr)
+        console.log("The reverse arr is : ", arr);
 }
 
-
-
 let arr = [1, 2, 3, 4, 5];
-console.log(arr);
+console.log("The original array is: ", arr);
 reverseArr(arr);
